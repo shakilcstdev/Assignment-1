@@ -7,6 +7,9 @@
   }
  
   /* shaerd style */
+  .secondary-bg{
+    background-color: #C6E4D6;
+  }
   .dark-2{
     color: seagreen;
   }
@@ -19,12 +22,19 @@
     
   }
 
+  .section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #0E0E0E;
+
+  }
 /* nav styles */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 160px;
+
     
 
 }
@@ -45,16 +55,24 @@ nav ul li{
     list-style: none;
 }
 /* banner styles */
+.fira-sans-normal{
+    
+   
+   
+}
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 160px 160px;
+    margin: 0px 14px 0px 14px;
+    background-color: #d1eee7;
+    
 }
 .banner-content{
-    width: 622px;
+    width: 622x;
+
 }
 .banner-greetings{
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 622;
 }
 .banner-title{
@@ -63,4 +81,23 @@ nav ul li{
 }
 .banner-profile-pic{
     width: 474px;
+}
+.about{
+    border-radius: 0px;
+}
+/* skills section style */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+ 
+.skill{
+    padding: 24px;
+    border-radius: 16px 16px 16px;
+    box-shadow: 5px 5px 5px 5px;
+    
+}
+
+.resum hr{
+    margin: 30px 5px;
 }
