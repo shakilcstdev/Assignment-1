@@ -11,14 +11,18 @@
     background-color: #C6E4D6;
   }
   .dark-2{
-    color: seagreen;
+    color: rgb(179, 209, 192);
   }
 
   .btn-primary{
-    font-weight: 1;
-    color: seagreen;
+    font-weight: bold;
+    color: #006a50;
     padding: 15px 30px;
     border-radius: 8px;
+    background-color: rgb(10, 168, 129);
+    border: 2px solid green;
+    margin: 15;
+
     
   }
 
@@ -40,7 +44,7 @@ nav{
 }
 
 
-}
+
 .nav-title{
     font-weight: 700;
     font-size: 32px;
@@ -65,7 +69,9 @@ nav ul li{
     justify-content: space-between;
     margin: 0px 14px 0px 14px;
     background-color: #d1eee7;
-    
+    border-radius: 20px;
+    opacity: 100%;
+    padding: 30px 100px;
 }
 .banner-content{
     width: 622x;
@@ -89,15 +95,33 @@ nav ul li{
 .skills-container{
     display: flex;
     gap: 24px;
+    
 }
  
 .skill{
     padding: 24px;
     border-radius: 16px 16px 16px;
     box-shadow: 5px 5px 5px 5px;
+    background-color: #5490F5 ;
     
 }
 
-.resum hr{
-    margin: 30px 5px;
+
+
+
+.pic-B{
+    justify-content: space-between;
+    display: flex;
+    border-radius: 24px;
+    margin: 0 40px;
+    width: 1280px;
+
+    font-weight: bold;
+    padding: 15px 30px; 
+    
+}
+
+.pic-c{
+    margin: 15px;
+    padding: 15px;
 }
