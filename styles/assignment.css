@@ -74,7 +74,7 @@ nav ul li{
     padding: 30px 100px;
 }
 .banner-content{
-    width: 622x;
+    
 
 }
 .banner-greetings{
@@ -107,7 +107,9 @@ nav ul li{
 }
 
 
-
+.pic-A{
+ ;
+}
 
 .pic-B{
     justify-content: space-between;
@@ -124,4 +126,15 @@ nav ul li{
 .pic-c{
     margin: 15px;
     padding: 15px;
+}
+.donate-options{}
+
+.shakil{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 14px 0px 14px;
+    background-color: #d1eee7;
+    border-radius: 20px;
+    opacity: 100%;
+    padding: 30px 100px;
 }
