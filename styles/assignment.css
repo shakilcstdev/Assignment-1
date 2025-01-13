@@ -1,140 +1,238 @@
 
-
-.fira-sans-normal {
+*{
+    margin-top: 20px;
+    gap: 40px;
+  
+    
+  }
+  body{
+    background-color: #F0F0F0;
+  }
+  .fira-sans-normal {
     font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: normal;
   }
- 
-  /* shaerd style */
-  .secondary-bg{
-    background-color: #C6E4D6;
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 60px;
   }
-  .dark-2{
-    color: rgb(179, 209, 192);
+  
+  nav ul li {
+    display: flex;
   }
-
-  .btn-primary{
+  
+  .btn-primary {
     font-weight: bold;
+    font-size: 18px;
     color: #006a50;
+    background-color: #ffffff;
     padding: 15px 30px;
     border-radius: 8px;
-    background-color: rgb(10, 168, 129);
     border: 2px solid green;
     margin: 15;
-
-    
   }
-
-  .section-title{
-    font-size: 35px;
-    font-weight: bold;
-    color: #0E0E0E;
-
+  
+  .dark-2 {
+    color: #0e0e0e;
   }
-/* nav styles */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 160px;
-
-    
-
-}
-
-
-
-.nav-title{
-    font-weight: 700;
-    font-size: 32px;
-}
-nav ul{
-    display: flex;
-    align-items: center;
-    
-}
-
-nav ul li{
-    list-style: none;
-}
-/* banner styles */
-.fira-sans-normal{
-    
-   
-   
-}
-.banner{
+  
+  .banner {
     display: flex;
     justify-content: space-between;
-    margin: 0px 14px 0px 14px;
-    background-color: #d1eee7;
-    border-radius: 20px;
-    opacity: 100%;
-    padding: 30px 100px;
-}
-.banner-content{
-    
-
-}
-.banner-greetings{
-    font-size: 24px;
-    font-weight: 622;
-}
-.banner-title{
-    font-weight: bold;
-    font-size: 56px;
-}
-.banner-profile-pic{
-    width: 474px;
-}
-.about{
-    border-radius: 0px;
-}
-/* skills section style */
-.skills-container{
-    display: flex;
-    gap: 24px;
-    
-}
- 
-.skill{
-    padding: 24px;
-    border-radius: 16px 16px 16px;
-    box-shadow: 5px 5px 5px 5px;
-    background-color: #5490F5 ;
-    
-}
-
-
-.pic-A{
- ;
-}
-
-.pic-B{
-    justify-content: space-between;
-    display: flex;
-    border-radius: 24px;
+    background-color: #c6e4d6;
     margin: 0 40px;
-    width: 1280px;
-
-    font-weight: bold;
-    padding: 15px 30px; 
-    
-}
-
-.pic-c{
-    margin: 15px;
-    padding: 15px;
-}
-.donate-options{}
-
-.shakil{
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 14px 0px 14px;
-    background-color: #d1eee7;
-    border-radius: 20px;
-    opacity: 100%;
     padding: 30px 100px;
-}
+    opacity: 100%;
+    border-radius: 20px;
+  }
+  .banner-head{
+    margin-top: ;
+  }
+  
+  .section_title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0e0e0e;
+  }
+  
+  /* banner styles */
+  .banner-greetings {
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+  }
+  
+  .banner-title {
+    font-weight: bold;
+    font-size: 30px;
+    width: 622px;
+    height: 201px;
+  }
+  
+  .banner-profile-pic {
+    width: 579px;
+    height: 480px;
+  }
+  
+  .btn-container {
+    width: 270px;
+    height: 56px;
+    padding: 34px;
+    background-color: #006a50;
+    color: #ffffff;
+    /* justify-items: ; */
+  }
+  
+  .banner-type1 {
+      display: flex;
+      justify-content: space-between;
+      background-color: #ffffff;
+      margin: 0 40px;
+      padding: 10px 10px;
+      opacity: 100%;
+      border-radius: 20px;
+      
+  }
+  .banner-card{
+       box-shadow: 4px 4px 8px  grey; 
+       padding: 15px 25px;
+       border-radius: 20px;
+       gap: 24px;
+  
+  }
+  .banner-h1{
+      padding-left: 40px;
+  }
+  
+  .banner-type2{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+      box-shadow: 4px 4px 8px grey;
+      padding: 30px;
+      border-radius: 20px
+     
+  
+  }
+  
+  .unique-banner{
+    padding: 0px 50px;
+    padding-top: 50px;
+  }
+  .banner-position{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 4px 4px 8px grey;
+    padding: 30px; 
+    align-items: center;
+    margin: 0px 50px;
+    gap: 50px;
+    border-radius: 24px;
+  }
+  
+  
+  
+   .vision-future{
+    padding-left: 50px;
+   }
+   .banner-card1{
+    background-color: rgba(84, 144, 245, 0.3);
+    padding: 20px;
+    border-radius: 20px;
+   }
+   .banner-card2{
+    background-color:rgba(9, 161, 92, 0.3);
+    padding: 20px;
+    border-radius: 20px;
+   }
+   .banner-card3{
+    background-color: rgba(255, 194, 57, 0.3);
+    padding: 20px;
+    border-radius: 20px;
+   }
+   .vision-btn1{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgba(84, 144, 245, 1);
+   }
+   .vision-btn2{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:rgba(9, 161, 92, 1);
+   }
+   .vision-btn3{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgba(255, 194, 57, 1);
+   }
+   .recent-news{
+    padding-left: 3rem;
+    margin-top: 20px;
+   }
+  .text-center{
+    text-align: center;
+  }
+  /* donate section styles */
+  .donate-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 14px;
+    text-align: center;
+    
+    
+  }
+  .donate-description{
+    padding: 10px;
+  
+  }
+  .donate-box{
+    align-items: center;
+    box-shadow: 4px 4px 8px grey;
+    padding: 0 40px;
+    margin: 0 40px;
+    font-size: 40px;
+    width: 252px;
+    height: 128px;
+    gap: 24px;
+    border-radius: 16px;
+  }
+  .main-box-title{
+  background-color: #FFFFFF;
+  border-radius: 0px;
+  border: none;
+  }
+  
+  .box-title{
+   text-align: center;
+   box-shadow: 4px 4px 8px #FFFFFF;
+   border-radius: 0px;
+   background-color: white;
+   
+   color: rgba(14, 14, 14, 0.8);
+   gap: 32px;
+  }
+  .button-box{
+    display: flex;
+    justify-content: center;
+  }
+  .color-button{
+    padding: 10px 24px;
+    color: white;
+    background-color: #006A50;
+    border-radius: 8ox;
+    font-size: 17px;
+    border-radius: 5px;
+    
+  }
+  
+  .text-center1{
+    display: flex;
+    justify-content: center;
+  }
